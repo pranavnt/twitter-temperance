@@ -86,7 +86,7 @@ if (localStorage.getItem("TWITTER_TIMESTAMP_UNIX") !== null) {
   }
 } else {
   // set the timestamp
-  localStorage.setItem("TWITTER_TIMESTAMP_UNIX", Date.now());
+  localStorage.setItem("TWITTER_TIMESTAMP_UNIX", 0);
 }
 
 // function canAccess() {

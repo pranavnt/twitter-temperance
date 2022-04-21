@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "twitter blocker",
+  "version": "1.0",
+  "description": "forces you to tweet before scrolling",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://twitter.com/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["storage", "tabs"]
+}

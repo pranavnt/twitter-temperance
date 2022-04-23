@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "twitter blocker",
   "version": "1.0",
   "description": "forces you to tweet before scrolling",

@@ -8,3 +8,5 @@ A chrome extension that makes you tweet before you can view your feed. Here's ho
 5. The extension is now installed!
 
 If there's anything that you'd like to add, feel free to create a GitHub issue or submit a PR :)
+
+The CSS used to remove distracting features was written entirely by @sarvasvkulpati

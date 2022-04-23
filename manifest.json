@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "twitter blocker",
+  "name": "twitter temperance",
   "version": "1.0",
   "description": "forces you to tweet before scrolling",
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*", "*://twitter.com/*"],
       "js": ["content_script.js"],
+      "css": ["no-bs-twitter.css"],
       "run_at": "document_start"
     }
   ],
